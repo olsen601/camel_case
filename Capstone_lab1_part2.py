@@ -4,9 +4,17 @@ def display_banner():
     stars = '*' * len(msg)
     print('\n', stars, '\n', msg, '\n', stars, '\n')
 
+def instructions():
+    '''Display instructions'''
+    msg = 'Please enter a sentence to convert to camel case'
+    print('\n', msg, '\n')
+
 display_banner()
+
+instructions()
+
 # add input: done
-userInput = input("Please type a sentence to convert to camel case: ")
+userInput = input(": ")
 
 # example = "fOnt proCESSOR and ParsER", originally used before input
 
